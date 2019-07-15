@@ -1,0 +1,10 @@
+{
+    "presets": [  // 配置预设环境
+      ["@babel/preset-env", {
+        "modules": false
+      }]
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-dynamic-import" // 处理src/index.js中动态加载
+    ]
+  }

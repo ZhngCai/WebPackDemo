@@ -1,0 +1,63 @@
+
+
+// .box{
+//     width:960px;
+//     -moz-column-count: 3;
+//     -webkit-column-count: 3;
+//     column-count: 3;
+// }
+
+// .child {
+//     margin-bottom:20px;	 
+//     -moz-page-break-inside: avoid;
+//     -webkit-column-break-inside: avoid;
+//     break-inside: avoid;
+//     color:#fff;
+//  }
+//  .child:nth-of-type(1){ height:100px; background:#000; }
+//  .child:nth-of-type(2){ height:120px; background:#111; }
+//  .child:nth-of-type(3){ height:140px; background:#222; }
+//  .child:nth-of-type(4){ height:160px; background:#333; }
+//  .child:nth-of-type(5){ height:180px; background:#444; }
+//  .child:nth-of-type(6){ height:200px; background:#555; }
+//  .child:nth-of-type(7){ height:220px; background:#666; }
+//  .child:nth-of-type(8){ height:240px; background:#777; }
+
+// .box{
+//     position: relative;
+//     padding: 0;
+//     margin: 0;
+//     height: 1242px;
+// }
+
+// .child  .card{
+//     background: #fff;
+//     border-radius: 6px;
+//     box-shadow: 0px 2px 6px rgba(0, 0, 0, .1);
+//     display: flex;
+//     flex-direction: column;
+//     transition: box-shadow .2s ease-in-out;
+// }
+
+//  .child img{
+//     display: block;
+//     width: 100%;
+//     height: auto;
+//     border-top-left-radius: 6px;
+//     border-top-right-radius: 6px;
+//  }
+
+//  [data-sjsel] {
+//     opacity: 0;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     transition: -webkit-transform .2s ease-out;
+//     transition: transform .2s ease-out;
+//     transition: transform .2s ease-out,-webkit-transform .2s ease-out;
+// }
+
+.aaa{
+    height: 500px;
+    background: url('../assets/1.webp') no-repeat;
+}
